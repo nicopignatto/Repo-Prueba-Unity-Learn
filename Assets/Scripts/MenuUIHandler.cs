@@ -15,7 +15,7 @@ public class MenuUIHandler : MonoBehaviour
     public void NewColorSelected(Color color)
     {
         // add code here to handle when a color is selected
-        MainManager.Instance.colorDelEquipo = color;
+        MainManager.Instance.teamColor = color;
     }
     
     private void Start()
@@ -25,12 +25,12 @@ public class MenuUIHandler : MonoBehaviour
         ColorPicker.onColorChanged += NewColorSelected;
     }
 
-    public void CargarEscenaNueva()
+    public void LoadNewScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void SalirDeLaApp()
+    public void QuitToTheApp()
     {
         Application.Quit();//esta linea solo se ejecuta cuando se tiene una build del juego.
         print("Salgo del juego");
