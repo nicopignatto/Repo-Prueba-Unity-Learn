@@ -736,7 +736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3ffc55526b26a40ad1f56aef11c17a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teamColor: {r: 0, g: 0, b: 0, a: 0}
+  teamColor: {r: 0.41509432, g: 0.40530434, b: 0.41228464, a: 0}
 --- !u!4 &884946892
 Transform:
   m_ObjectHideFlags: 0
